@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <typeAliases>
+        <package name="com.springboot.dao"/>
+    </typeAliases>
+    <!--<mappers>-->
+    <!--<mapper resource="sample/mybatis/mapper/CityMapper.xml"/>-->
+    <!--<mapper resource="sample/mybatis/mapper/HotelMapper.xml"/>-->
+    <!--</mappers>-->
+
+
+    <!-- mybatis 主配置文件可以把所有的 mapper 文件放在这里
+        不建议使用
+     -->
+</configuration>
